@@ -55,11 +55,6 @@ namespace EsGitLapo
             txtbMax.Text = V.Max().ToString();
             txtbMin.Text = V.Min().ToString();
         }
-
-        private void bOrdine_Click(object sender, EventArgs e)
-        {
-
-        }
     }
                 
 }
