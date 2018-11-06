@@ -53,8 +53,10 @@ namespace EsGitLapo
         private void bCalcolo_Click(object sender, EventArgs e)
         {
             txtbMax.Text = V.Max().ToString();
+            MessageBox.Show("Bailuri");
             txtbMin.Text = V.Min().ToString();
         }
+        
     }
                 
 }
